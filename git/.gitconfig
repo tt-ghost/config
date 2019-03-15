@@ -1,0 +1,29 @@
+[core]
+	excludesfile = /Users/xxx/.gitignore_global
+  filemode = true
+  bare = false
+  logallrefupdates = true
+[user]
+	name = yourName
+	email = yourName
+[alias]
+	ci = commit
+	co = checkout
+	br = branch
+	st = status 
+[push]
+	default = matching
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	required = true
+	process = git-lfs filter-process
+[color]
+	ui = true
+
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
