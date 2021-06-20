@@ -14,10 +14,10 @@ set mousemodel=popup
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
+"call vundle#begin()
+"Plugin 'VundleVim/Vundle.vim'
 " ADD YOUR PLUGIN
-call vundle#end()
+"call vundle#end()
 filetype plugin indent on
 "Vundle Section End
 
@@ -422,11 +422,11 @@ autocmd FileType python set omnifunc=pythoncomplete#Complete
 "filetype off                   " required!
 
 set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+"call vundle#rc()
 
 " let Vundle manage Vundle
 " required! 
-Bundle 'gmarik/vundle'
+"Bundle 'gmarik/vundle'
 
 " My Bundles here:
 "
@@ -438,36 +438,36 @@ let g:indentLine_char = '┊'
 "ndle 'tpope/vim-rails.git'
 " vim-scripts repos
 "Bundle 'L9'
-Bundle 'FuzzyFinder'
+"Bundle 'FuzzyFinder'
 " non github repos
 "Bundle 'https://github.com/wincent/command-t.git'
 "Bundle 'Auto-Pairs'
 "Bundle 'python-imports.vim'
 "Bundle 'CaptureClipboard'
-Bundle 'ctrlp-modified.vim'
+"Bundle 'ctrlp-modified.vim'
 "Bundle 'last_edit_marker.vim'
-Bundle 'synmark.vim'
+"Bundle 'synmark.vim'
 "Bundle 'Python-mode-klen'
 "Bundle 'SQLComplete.vim'
-Bundle 'Javascript-OmniCompletion-with-YUI-and-j'
+"Bundle 'Javascript-OmniCompletion-with-YUI-and-j'
 "Bundle 'JavaScript-Indent'
 "Bundle 'Better-Javascript-Indentation"
 "Bundle 'jslint.vim'
-Bundle "pangloss/vim-javascript"
-Bundle 'mxw/vim-jsx'
-Bundle 'Vim-Script-Updater'
-Bundle 'ctrlp.vim'
-Bundle 'tacahiroy/ctrlp-funky'
-Bundle 'jsbeautify'
-Bundle 'The-NERD-Commenter'
+"Bundle "pangloss/vim-javascript"
+"Bundle 'mxw/vim-jsx'
+"Bundle 'Vim-Script-Updater'
+"Bundle 'ctrlp.vim'
+"Bundle 'tacahiroy/ctrlp-funky'
+"Bundle 'jsbeautify'
+"Bundle 'The-NERD-Commenter'
 "django
-Bundle 'nerdtree'
-Bundle 'nerdtree-git-plugin'
+"Bundle 'nerdtree'
+"Bundle 'nerdtree-git-plugin'
 "Bundle 'django_templates.vim'
 "Bundle 'Django-Projects'
 "Plugin 'isRuslan/vim-es6'
-Plugin 'vim-vue'
-Plugin 'vim-pug'
+"Plugin 'vim-vue'
+"Plugin 'vim-pug'
 "Plugin 'mattn/emmet-vim'
 
 "Bundle 'FredKSchott/CoVim'
@@ -496,4 +496,3 @@ let g:ctrlp_custom_ignore = '\v\.(exe|so|dll)$'
 let g:ctrlp_extensions = ['funky']
 
 let NERDTreeIgnore=['\.pyc']
-
