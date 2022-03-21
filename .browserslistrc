@@ -1,0 +1,7 @@
+# https://github.com/browserslist/browserslist
+# 全球市场份额大于 1%的浏览器
+> 1%
+# 每个浏览器最近的两个版本
+last 2 versions
+# 近两年有新版本官方在维护
+not dead
